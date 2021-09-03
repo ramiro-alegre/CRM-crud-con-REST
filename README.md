@@ -20,6 +20,8 @@ Por lo que, en la misma consola donde verificaron la instalación de Node.js, es
 
 > ***npm install -g json-server***
 
+El "-g" es un agregado para que json-server se instale de forma global.
+
 ## Paso 3 
 
 Ahora, dentro de la misma consola, hacen un cd a la carpeta del proyecto y escriben 
