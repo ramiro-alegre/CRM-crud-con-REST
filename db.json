@@ -1,0 +1,10 @@
+{
+  "clientes": [
+    {
+      "nombre": "Ramiro",
+      "telefono": "21312312",
+      "empresa": "Pepsi",
+      "id": 1
+    }
+  ]
+}

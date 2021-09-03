@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/nuevo-cliente.css">
+
+    <title>CRM Clientes</title>
+</head>
+
+<body>
+    <aside class="menu">
+        <div class="menu__conteiner">
+            <h1 class="menu__h1">CRM Clientes</h1>
+            <p class="menu__texto">Administra tus clientes con el CRM Clientes</p>
+            <a href="index.html" class="link">Clientes</a>
+            <a href="nuevo-cliente.html" class="link link__active">Nuevo Cliente</a>
+        </div>
+    </aside>
+
+    <section class="cliente__agregar">
+
+        <h2 class="formulario__h2">Nuevo cliente</h2>
+        <form action="#" class="formulario" id="formulario">
+            <div class="formulario__campo">
+                <label for="nombre" class="formulario__label">Nombre</label> <input type="text" id="nombre" placeholder="Nombre Cliente" class="formulario__input">
+            </div>
+            <div class="formulario__campo">
+                <label for="telefono" class="formulario__label">Teléfono</label> <input type="tel" id="telefono" placeholder="Teléfono Cliente" class="formulario__input">
+            </div>
+            <div class="formulario__campo">
+                <label for="empresa" class="formulario__label">Empresa</label> <input type="text" id="empresa" placeholder="Empresa Cliente" class="formulario__input">
+            </div>
+
+            <button type="submit" class="boton">Agregar cliente</button>
+
+        </form>
+        <div class="mensaje"></div>
+    </section>
+</body>
+<script src="js/nuevocliente.js" type="module"></script>
+
+</html>

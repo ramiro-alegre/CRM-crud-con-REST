@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import 'color.scss';
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Poppins', 'Arial';
+}
+
+//--Trabajando con el aside--//
+.menu {
+    height: 100vh;
+    width: 20vw;
+    background-color: $fondo-aside;
+}
+
+.menu__conteiner {
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 50px;
+    left: 20px;
+    margin-right: 20px;
+    color: $letras-aside;
+}
+
+.menu__h1 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.menu__texto {
+    margin-bottom: 20px;
+}
+
+.link {
+    margin: 10px 0px;
+    color: white;
+    text-decoration: none;
+    width: 90%;
+    padding: 5px 10px;
+}
+
+.link:hover {
+    background-color: $active-link;
+}
+
+.link__active {
+    background-color: $active-link;
+}
+
+.cliente__agregar {
+    background-color: $fondo-derecha;
+    width: 80vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formulario__h2 {
+    font-size: 30px;
+    margin: 15px 0px;
+}
+
+.formulario {
+    width: 500px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.formulario__campo {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0px;
+}
+
+.formulario__label {
+    font-weight: bold;
+}
+
+.formulario__input {
+    padding: 8px 4px;
+    font-size: 15px;
+}
+
+.boton {
+    padding: 10px 50px;
+    margin: 10px 0px;
+    background-color: $color-boton;
+    border: none;
+    color: white;
+}
+
+.boton:hover {
+    cursor: pointer;
+}
+
+.mensaje {
+    position: relative;
+    top: 50px;
+}
+
+.mensaje__active {
+    padding: 10px 20px;
+    color: red;
+    border: 1px solid red;
+}
