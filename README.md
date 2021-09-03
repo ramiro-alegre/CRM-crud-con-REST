@@ -1,6 +1,6 @@
 # CRM-crud-con-REST
  
-# Intrucciones para utilizarlo 
+# Intrucciones para su correcto uso 
 
 ## Paso 1 
 
@@ -29,4 +29,26 @@ El agregado de "-p 4000" es para elegir el puerto 4000. Terminado esto, ya esta 
 
 ## Eso seria todo
 **_Este proyecto es una practica de REST con Json-server por parte de "Juan pablo de la torre" en Udemy._**
+
+# Imagenes
+
+## Imagen 1
+![imagen1](https://user-images.githubusercontent.com/64865940/132074076-da68dfe9-5c66-4036-ba5e-2923a169e7f1.png)
+
+## Imagen 2
+
+![imagen2](https://user-images.githubusercontent.com/64865940/132074079-ef2b2835-43c7-4220-9ac5-afa89aa5bd6b.png)
+
+## Imagen 3
+
+![imagen3](https://user-images.githubusercontent.com/64865940/132074083-06e6dcb8-3424-4578-ad1e-6691161f191c.png)
+
+## Imagen 4
+
+![imagen4](https://user-images.githubusercontent.com/64865940/132074086-f8b3e463-7d12-4c5a-bed8-79b5d167a5c6.png)
+
+## Imagen 5
+
+![imagen5](https://user-images.githubusercontent.com/64865940/132074087-4dde5c6b-732e-4a48-9647-7432481d11b2.png)
+
 
