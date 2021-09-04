@@ -3,8 +3,6 @@ import { obtenerClientes, eliminarCliente } from './API.js';
 (function() {
 
     const listado = document.querySelector('#clientes');
-    const hamburguer = document.querySelector('#hamburguer');
-    const closeX = document.querySelector('#close-X');
     document.addEventListener('DOMContentLoaded', mostrarClientes);
     listado.addEventListener('click', confirmarEliminar);
 
